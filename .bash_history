@@ -270,3 +270,89 @@ cd ..
 git init
 sudo yum install git
 logout
+ls
+cd lab1sss
+ls
+vi script.bash
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/calc.bash
+bash script.bash 
+bash script.bash  calc sum 1 2
+vi scripts/calc.bash
+bash script.bash  calc sum 1 2
+vi scripts/calc.bash
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash calc sum 0 +0
+vi scripts/strlen.bash
+vi scripts/calc.bash
+bash script.bash calc div 4 0
+vi scripts/calc.bash
+vi scripts/interactive.bash
+vi scripts/interactiv.bash
+bash script.bash interactive
+ls
+cd scrits
+cd scripts
+ls
+vi interactiv.bash
+chmode u+x strlen.bash
+chmod u+x strlen.bash
+chmod u+x help.bash
+chmod u+x exit.bash
+chmod u+x reverse.bash
+chmod u+x search.bash
+ls
+chmod u+x log.bash
+chmod u+x interactiv.bash
+chmod u+x calc.bash
+ls
+cd ..
+ls
+chmod u+x script.bash
+bash script.bash interactive
+vi scripts/strlen.bash
+bash script.bash strlen    
+bash script.bash strlen "    "
+bash script.bash strlen """"""""
+bash script.bash strlen "\""
+bash script.bash strlen a b
+bash script.bash strlen "a" "b"
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi script.bash
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+:Wq
+cd..
+git add.
+git add .
+logout
