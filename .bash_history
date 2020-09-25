@@ -356,3 +356,25 @@ cd..
 git add.
 git add .
 logout
+bash script.bash interactive
+cd lab1sss
+bash script.bash interactive
+vi scripts/interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+cd scripts
+ls
+cd ..
+vi scripts/interactiv.bash
+bash script.bash interactive
+vi scripts/interactiv.bash
+bash script.bash interactive
+bash script.bash /etc 124
+vi scripts/exit.bash
+bash script.bash exit 4
+$?
+vi scripts/calc.bash
+bash script.bash calc sum -4 -2
+vi scripts/calc.bash
+bash script.bash calc sum -4 -2
+logout

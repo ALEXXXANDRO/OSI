@@ -41,7 +41,10 @@ menu () {
 			. scripts/log.bash; echo; menu;;
 		"help" | "h" )
 			. scripts/help.bash; echo; menu;;
-		"exit" | "e" ) exit;;
+		"exit" | "e" ) 
+			echo "Enter exit code"
+			read code
+			. scripts/exit.bash $code $code; echo;;
 		* ) echo "Choose correct function"; echo; menu;;
 	esac
 }

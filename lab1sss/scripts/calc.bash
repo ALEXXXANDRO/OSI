@@ -2,19 +2,19 @@
 
 #происходит проверка на количество аргументов, и на их тип
 sum(){
-	[[ -n "$1" && -n "$2" ]] && { [[ "$1" =~ ^[0-9]+$ && "$2" =~ ^[0-9]+$ ]] && { res=$(($1+$2)); echo "$res"; } || echo "wrong type"; } || echo  "You need to enter two arguments!"
+	[[ -n "$1" && -n "$2" ]] && { [[ "$1" =~ ^(-)?[0-9]+$ && "$2" =~ ^(-)?[0-9]+$ ]] && { res=$(($1+$2)); echo "$res"; } || echo "wrong type"; } || echo  "You need to enter two arguments!"
 }
 
 sub(){
-	[[ -n "$1" && -n "$2" ]] && { [[ "$1" =~ ^[0-9]+$ && "$2" =~ ^[0-9]+$ ]] && { res=$(($1-$2)); echo "$res"; } || echo "wrong type"; } || echo "You need to enter two arguments!"
+	[[ -n "$1" && -n "$2" ]] && { [[ "$1" =~ ^(-)?[0-9]+$ && "$2" =~ ^(-)?[0-9]+$ ]] && { res=$(($1-$2)); echo "$res"; } || echo "wrong type"; } || echo "You need to enter two arguments!"
 }
 
 mul(){
-	[[ -n "$1" && -n "$2" ]] && { [[ "$1" =~ ^[0-9]+$ && "$2" =~ ^[0-9]+$ ]] && { res=$(($1*$2)); echo "$res"; } || echo "wrong type"; } || echo "You need to enter two arguments!"
+	[[ -n "$1" && -n "$2" ]] && { [[ "$1" =~ ^(-)?[0-9]+$ && "$2" =~ ^(-)?[0-9]+$ ]] && { res=$(($1*$2)); echo "$res"; } || echo "wrong type"; } || echo "You need to enter two arguments!"
 }
 
 div(){
-	[[ -n "$1" && -n "&2" ]] && { [[ "$1" =~ ^[0-9]+$ && "$2" =~ ^[0-9]+$ ]] && { res=$(($1/$2)); echo "$res"; } || echo "wrong type"; } || echo "You need to enter two arguments!"
+	[[ -n "$1" && -n "&2" ]] && { [[ "$1" =~ ^(-)?[0-9]+$ && "$2" =~ ^(-)?[0-9]+$ ]] && { res=$(($1/$2)); echo "$res"; } || echo "wrong type"; } || echo "You need to enter two arguments!"
 }
 
 
