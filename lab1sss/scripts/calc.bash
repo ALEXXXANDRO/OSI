@@ -13,9 +13,15 @@ mul(){
 	[[ -n "$1" && -n "$2" ]] && { [[ "$1" =~ ^(-)?[0-9]+$ && "$2" =~ ^(-)?[0-9]+$ ]] && { res=$(($1*$2)); echo "$res"; } || echo "wrong type"; } || echo "You need to enter two arguments!"
 }
 
-div(){
-	[[ -n "$1" && -n "&2" ]] && { [[ "$1" =~ ^(-)?[0-9]+$ && "$2" =~ ^(-)?[0-9]+$ ]] && { res=$(($1/$2)); echo "$res"; } || echo "wrong type"; } || echo "You need to enter two arguments!"
+div(){ 
+	if [[ "$4"=0 ]]
+	then
+		echo "Divison by zero";
+	else
+		[[ -n "$1" && -n "&2" ]] && { [[ "$1" =~ ^(-)?[0-9]+$ && "$2" =~ ^(-)?[0-9]+$ ]] && { res=$(($1/$2)); echo "$res"; } || echo "wrong type"; } || echo "You need to enter two arguments!"
+	fi
 }
+	
 
 
 if [[ -n "$2" ]]

@@ -378,3 +378,26 @@ bash script.bash calc sum -4 -2
 vi scripts/calc.bash
 bash script.bash calc sum -4 -2
 logout
+cd labs
+cd lab1sss
+ls
+bash script.bash calc sum -4 -2
+bash script.bash calc sum -4 +2
+bash script.bash calc sum -4 2
+vi scripts/calc.bash
+bash script.bash calc div 4 2
+vi scripts/calc.bash
+bash script.bash calc div 4 2
+vi scripts/calc.bash
+bash script.bash calc div 4 2
+bash script.bash calc div 4 0
+vi scripts/calc.bash
+bash script.bash calc div 4 0
+vi scripts/calc.bash
+bash script.bash calc div 4 0
+bash script.bash calc div 4 2
+vi scripts/calc.bash
+bash script.bash calc div 4 2
+vi scripts/calc.bash
+bash script.bash calc div 4 0
+logout
