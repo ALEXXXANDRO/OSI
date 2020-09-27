@@ -14,7 +14,7 @@ mul(){
 }
 
 div(){ 
-	if [[ "$4"=0 ]]
+	if [[ "$2" == "0" ]]
 	then
 		echo "Divison by zero";
 	else

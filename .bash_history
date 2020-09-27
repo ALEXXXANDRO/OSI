@@ -401,3 +401,88 @@ bash script.bash calc div 4 2
 vi scripts/calc.bash
 bash script.bash calc div 4 0
 logout
+cd lab1sss
+vi scripts/calc.bash
+bash script.bash calc div 4 2
+bash script.bash calc div 4 0
+bash script.bash calc div 4 2
+vi scripts/calc.bash
+bash script.bash calc div 4 2
+vi scripts/calc.bash
+bash script.bash calc div 4 2
+vi scripts/calc.bash
+bash script.bash calc div 4 2
+bash script.bash calc div 4 0
+bash script.bash calc div 213
+bash script.bash calc div 21 3
+vi scripts/calc.bash
+bash script.bash calc div 21 3
+bash script.bash calc div 21 0
+bash script.bash calc div 21 
+vi scripts/calc.bash
+bash script.bash calc div 21 
+vi scripts/calc.bash
+bash script.bash calc div 21 
+bash script.bash calc div 21 0
+bash script.bash calc div 21 0*
+bash script.bash calc div 21 "0"
+vi scripts/calc.bash
+bash script.bash calc div 21 "0"
+bash script.bash calc div 21 0
+bash script.bash calc div 21 9
+bash script.bash calc div 21 7
+vi scripts/search.bash
+bash script.bash search /etc 124
+vi scripts/search.bash
+bash script.bash search /etc 124
+vi scripts/strlen.bash
+bash script.bash strlen wd
+bash script.bash 
+bash script.bash strlen 
+bash script.bash strlen
+bash script.bash strlen ""
+bash script.bash strlen " "
+bash script.bash strlen   
+bash script.bash strlen " "
+vi scripts/reverse.bash
+vi test1
+vi test2
+bash script.bash reverse test1 test2
+vi test2
+vi tmp
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi test1
+vi test2
+vi tmp
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts
+bash script.bash reverse test1 test2
+vi tmp
+vi test1
+vi test2
+vi scripts/reverse.bash
+vi test2
+bash script.bash reverse test1 test2
+vi test2
+bash script.bash reverse test1 test1
+vi test1
+ls
+rm test1
+rm test2
+cd script.bash
+cd scripts
+ls
+cd ..
+script.bash log
+bash script.bash log
+bash script.bash log | less
+vi scripts/log.bash
+git add .
+logiut
+logout
