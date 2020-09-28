@@ -486,3 +486,65 @@ vi scripts/log.bash
 git add .
 logiut
 logout
+cd lsb1sss
+cd lab1sss
+vi scripts/reverse.bash
+ls
+vi test1
+vi test2
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+ls
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+ls
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi test1
+vi tmp
+vi test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi scripts/reverse.bash
+bash script.bash reverse test1 test2
+vi test1
+vi test2
+bash script.bash reverse test1 test1
+vi scripts/reverse.bash
+bash script.bash reverse test1 test1
+vi test1
+bash script.bash reverse test1 test2
+vi test2
+vi test1
+bash script.bash reverse test1 test1
+vi test1
+vi test2
+vi test1
+bash script.bash reverse test1 test1
+vi test1
+logout
