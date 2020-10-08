@@ -7,7 +7,7 @@ reverse() {
 
 if [[ -n "$2" && -n "$3" ]] 
 then 
-	[[ -f "$2" ]] && { reverse $2 $3; } || { echo "No such file in directory"; }
+	[[ -f "$2" ]] && { reverse $2 $3; } || { echo "No such file in directory"; exit -499929; }
 else
   	echo "Enter both arguments"
 fi

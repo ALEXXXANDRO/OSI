@@ -548,3 +548,40 @@ vi test1
 bash script.bash reverse test1 test1
 vi test1
 logout
+ls
+cd lab1sss
+vi scripts/log.bash
+bash script.bash log
+bash script.bash log|less
+vi scripts/log.bash
+bash script.bash log|less
+bash script.bash log
+vi scripts/log.bash
+bash script.bash log
+vi scripts/log.bash
+bash script.bash log
+vi scripts/log.bash
+bash script.bash log
+vi scripts/log.bash
+bash script.bash log
+bash script.bash log|less
+vi scripts/reversed
+vi scripts/reverse
+ls
+vi scripts/reverse.bash
+bash script.bash reverse 1213 dqqa
+$?
+vi scripts/exit.bash
+bash script.bash reverse 1213 dqqa
+$?
+vi scripts/reverse.bash
+vi scripts/calc.bash
+bash script.bash calc sum +2 -4
+bash script.bash calc div +0 -0
+bash script.bash calc div 6 +0
+$?
+bash script.bash calc div +0 -0
+$?
+bash script.bash calc div +0 -0
+echo $?
+logout
